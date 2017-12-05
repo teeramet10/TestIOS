@@ -13,6 +13,7 @@ class UserModel {
     var address : String?
     var email : String?
     var age : Int
+    var image : String?
 
     init(id : Int,name : String,age :Int){
         self.id = id

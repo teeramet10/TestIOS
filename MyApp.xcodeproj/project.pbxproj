@@ -15,6 +15,8 @@
 		8A72E9D51FD322D30020258B /* StoringDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72E9D41FD322D30020258B /* StoringDataViewController.swift */; };
 		8AB8CB121FD45BE800689F26 /* string.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8CB111FD45BE800689F26 /* string.strings */; };
 		8AB8CB151FD45FEA00689F26 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8CB131FD45FEA00689F26 /* Data.xcdatamodeld */; };
+		8ABA92001FD6E5BC000DBA6E /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA91FF1FD6E5BC000DBA6E /* UserTableViewCell.swift */; };
+		8ABA92021FD6E621000DBA6E /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA92011FD6E621000DBA6E /* UserTableViewController.swift */; };
 		8AF777DA1FB4BB6300C473EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF777D91FB4BB6300C473EF /* AppDelegate.swift */; };
 		8AF777DC1FB4BB6300C473EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF777DB1FB4BB6300C473EF /* ViewController.swift */; };
 		8AF777DF1FB4BB6300C473EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF777DD1FB4BB6300C473EF /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 		8A72E9D41FD322D30020258B /* StoringDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringDataViewController.swift; sourceTree = "<group>"; };
 		8AB8CB111FD45BE800689F26 /* string.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = string.strings; sourceTree = "<group>"; };
 		8AB8CB141FD45FEA00689F26 /* Data.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		8ABA91FF1FD6E5BC000DBA6E /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		8ABA92011FD6E621000DBA6E /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		8AF777D61FB4BB6300C473EF /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF777D91FB4BB6300C473EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF777DB1FB4BB6300C473EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				8A72E9D41FD322D30020258B /* StoringDataViewController.swift */,
 				8AB8CB111FD45BE800689F26 /* string.strings */,
 				8AB8CB131FD45FEA00689F26 /* Data.xcdatamodeld */,
+				8ABA91FF1FD6E5BC000DBA6E /* UserTableViewCell.swift */,
+				8ABA92011FD6E621000DBA6E /* UserTableViewController.swift */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -166,6 +172,7 @@
 			files = (
 				8A60848A1FCC6A1100385A66 /* MyPageViewController.swift in Sources */,
 				8A72E9C91FD057CC0020258B /* ShowDataViewController.swift in Sources */,
+				8ABA92001FD6E5BC000DBA6E /* UserTableViewCell.swift in Sources */,
 				8AF777DC1FB4BB6300C473EF /* ViewController.swift in Sources */,
 				8A72E9C71FD057BA0020258B /* FormViewController.swift in Sources */,
 				8AF777EE1FB4C91C00C473EF /* LoginController.swift in Sources */,
@@ -173,6 +180,7 @@
 				8A72E9D51FD322D30020258B /* StoringDataViewController.swift in Sources */,
 				8AB8CB151FD45FEA00689F26 /* Data.xcdatamodeld in Sources */,
 				8A72E9C51FCF180C0020258B /* UserModel.swift in Sources */,
+				8ABA92021FD6E621000DBA6E /* UserTableViewController.swift in Sources */,
 				8A4B39C21FC332A7006776B0 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
