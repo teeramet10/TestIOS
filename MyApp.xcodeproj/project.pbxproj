@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A4B39C21FC332A7006776B0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4B39C11FC332A7006776B0 /* TableViewController.swift */; };
 		8A60848A1FCC6A1100385A66 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6084891FCC6A1100385A66 /* MyPageViewController.swift */; };
+		8A6188E01FE02ED800F9FFA9 /* AllTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6188DF1FE02ED700F9FFA9 /* AllTableViewController.swift */; };
 		8A72E9C51FCF180C0020258B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72E9C41FCF180C0020258B /* UserModel.swift */; };
 		8A72E9C71FD057BA0020258B /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72E9C61FD057BA0020258B /* FormViewController.swift */; };
 		8A72E9C91FD057CC0020258B /* ShowDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72E9C81FD057CC0020258B /* ShowDataViewController.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		8A4B39C11FC332A7006776B0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		8A6084891FCC6A1100385A66 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		8A6188DF1FE02ED700F9FFA9 /* AllTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTableViewController.swift; sourceTree = "<group>"; };
 		8A72E9C41FCF180C0020258B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		8A72E9C61FD057BA0020258B /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		8A72E9C81FD057CC0020258B /* ShowDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				8AB8CB131FD45FEA00689F26 /* Data.xcdatamodeld */,
 				8ABA91FF1FD6E5BC000DBA6E /* UserTableViewCell.swift */,
 				8ABA92011FD6E621000DBA6E /* UserTableViewController.swift */,
+				8A6188DF1FE02ED700F9FFA9 /* AllTableViewController.swift */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				8AF777DA1FB4BB6300C473EF /* AppDelegate.swift in Sources */,
 				8A72E9D51FD322D30020258B /* StoringDataViewController.swift in Sources */,
 				8AB8CB151FD45FEA00689F26 /* Data.xcdatamodeld in Sources */,
+				8A6188E01FE02ED800F9FFA9 /* AllTableViewController.swift in Sources */,
 				8A72E9C51FCF180C0020258B /* UserModel.swift in Sources */,
 				8ABA92021FD6E621000DBA6E /* UserTableViewController.swift in Sources */,
 				8A4B39C21FC332A7006776B0 /* TableViewController.swift in Sources */,

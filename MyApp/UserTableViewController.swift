@@ -16,14 +16,20 @@ class UserTableViewController: UIViewController ,UITableViewDelegate,UITableView
         return (userList.count)
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100.0
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! UserTableViewCell
         
         if let image = userList[indexPath.row].image {
             let url = URL(string : image)
             let data = try? Data.init(contentsOf: url!)
-            cell.imageUser.image = UIImage(data : data!)
-        }
+            if let imagedata = data {
+            cell.imageUser.image = UIImage(data : imagedata)
+            }
+            }
         
         cell.tvNam.text = userList[indexPath.row].name
     
@@ -42,7 +48,7 @@ class UserTableViewController: UIViewController ,UITableViewDelegate,UITableView
         
         userList.append(user1)
         userList.append(user2)
-        
+    
         self.tableView.reloadData()
     }
 
