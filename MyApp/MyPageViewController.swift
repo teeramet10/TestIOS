@@ -11,9 +11,9 @@ import UIKit
 class MyPageViewController: UIPageViewController,UIPageViewControllerDataSource,UIPageViewControllerDelegate {
     
     lazy var page : [UIViewController] = {
-        return [self.inistance(identifier: "PageView1"),
-                self.inistance(identifier: "PageView2"),
-                self.inistance(identifier: "PageView3")]
+        return [self.inistance(identifier: "LoginController"),
+                self.inistance(identifier: "ViewController"),
+                self.inistance(identifier: "TableViewController")]
         
     }()
     

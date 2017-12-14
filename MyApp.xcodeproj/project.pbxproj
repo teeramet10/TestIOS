@@ -14,6 +14,8 @@
 		8A72E9C71FD057BA0020258B /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72E9C61FD057BA0020258B /* FormViewController.swift */; };
 		8A72E9C91FD057CC0020258B /* ShowDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72E9C81FD057CC0020258B /* ShowDataViewController.swift */; };
 		8A72E9D51FD322D30020258B /* StoringDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72E9D41FD322D30020258B /* StoringDataViewController.swift */; };
+		8A779E271FE2CCA300D74F71 /* CustomSegmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A779E261FE2CCA300D74F71 /* CustomSegmentController.swift */; };
+		8A779E291FE2DE7000D74F71 /* CustomSegmentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A779E281FE2DE7000D74F71 /* CustomSegmentUIView.swift */; };
 		8AB8CB121FD45BE800689F26 /* string.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8CB111FD45BE800689F26 /* string.strings */; };
 		8AB8CB151FD45FEA00689F26 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8CB131FD45FEA00689F26 /* Data.xcdatamodeld */; };
 		8ABA92001FD6E5BC000DBA6E /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA91FF1FD6E5BC000DBA6E /* UserTableViewCell.swift */; };
@@ -34,6 +36,8 @@
 		8A72E9C61FD057BA0020258B /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		8A72E9C81FD057CC0020258B /* ShowDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewController.swift; sourceTree = "<group>"; };
 		8A72E9D41FD322D30020258B /* StoringDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringDataViewController.swift; sourceTree = "<group>"; };
+		8A779E261FE2CCA300D74F71 /* CustomSegmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentController.swift; sourceTree = "<group>"; };
+		8A779E281FE2DE7000D74F71 /* CustomSegmentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentUIView.swift; sourceTree = "<group>"; };
 		8AB8CB111FD45BE800689F26 /* string.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = string.strings; sourceTree = "<group>"; };
 		8AB8CB141FD45FEA00689F26 /* Data.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
 		8ABA91FF1FD6E5BC000DBA6E /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				8ABA91FF1FD6E5BC000DBA6E /* UserTableViewCell.swift */,
 				8ABA92011FD6E621000DBA6E /* UserTableViewController.swift */,
 				8A6188DF1FE02ED700F9FFA9 /* AllTableViewController.swift */,
+				8A779E261FE2CCA300D74F71 /* CustomSegmentController.swift */,
+				8A779E281FE2DE7000D74F71 /* CustomSegmentUIView.swift */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -181,6 +187,8 @@
 				8AF777EE1FB4C91C00C473EF /* LoginController.swift in Sources */,
 				8AF777DA1FB4BB6300C473EF /* AppDelegate.swift in Sources */,
 				8A72E9D51FD322D30020258B /* StoringDataViewController.swift in Sources */,
+				8A779E291FE2DE7000D74F71 /* CustomSegmentUIView.swift in Sources */,
+				8A779E271FE2CCA300D74F71 /* CustomSegmentController.swift in Sources */,
 				8AB8CB151FD45FEA00689F26 /* Data.xcdatamodeld in Sources */,
 				8A6188E01FE02ED800F9FFA9 /* AllTableViewController.swift in Sources */,
 				8A72E9C51FCF180C0020258B /* UserModel.swift in Sources */,
