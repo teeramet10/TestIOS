@@ -10,6 +10,7 @@ import UIKit
 
 class AllTableViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     @IBOutlet weak var segment: UISegmentedControl!
+    @IBOutlet weak var customSegment: CustomSegmentUIView!
     
     @IBOutlet weak var tableview: UITableView!
     var all = ["Photographer","Technology","Home","Beauty"]
@@ -19,7 +20,7 @@ class AllTableViewController: UIViewController ,UITableViewDataSource,UITableVie
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         var num = 0
         
-        switch segment.selectedSegmentIndex {
+        switch customSegment.selectedSegmentIndex {
         case 0:
             num = all.count
             break
@@ -39,7 +40,7 @@ class AllTableViewController: UIViewController ,UITableViewDataSource,UITableVie
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var namecell = "cell"
-        if segment.selectedSegmentIndex == 1 {
+        if customSegment.selectedSegmentIndex == 1 {
             namecell = "cell2"
         }
         let cell = tableView.dequeueReusableCell(withIdentifier: namecell, for: indexPath)
@@ -52,7 +53,7 @@ class AllTableViewController: UIViewController ,UITableViewDataSource,UITableVie
         
         var data = ""
         
-        switch segment.selectedSegmentIndex {
+        switch customSegment.selectedSegmentIndex {
         case 0:
             data = all[row]
             break
@@ -85,6 +86,9 @@ class AllTableViewController: UIViewController ,UITableViewDataSource,UITableVie
     
 
 
-   
+    @IBAction func customSegmentChange(_ sender: Any) {
+        tableview.reloadData()
+    }
+    
 
 }
